@@ -33,7 +33,7 @@ export const NavBar = () => {
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                         <Link className="navbar-brand" href="/">
-                            <Image src={'/LOGO_noBackground.png'} height={32} width={32} alt="La Hora Libre" />
+                            <Image src={'/small_logo.png'} height={70} width={70} alt="La Hora Libre" />
                         </Link>
                         <button className="navbar-toggler" type="button" onClick={toggleMenu}>
                             <span className="navbar-toggler-icon"></span>
@@ -42,44 +42,44 @@ export const NavBar = () => {
                             <ul className="navbar-nav me-auto">
                                 <li className="nav-item">
                                     <Link className="nav-link" href="/" onClick={handleLinkClick}>
-                                        <p>Inicio</p>
+                                        <p>Home</p>
                                     </Link>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                        Sobre nosotros
+                                        About us
                                     </a>
                                     <div className="dropdown-menu">
                                         <Link className="dropdown-item" href="/info" onClick={handleLinkClick}>
-                                            Sobre nosotros
+                                            About us
                                         </Link>
                                         <Link className="dropdown-item" href="/politicas/cookies" onClick={handleLinkClick}>
-                                            Política de Cookies
+                                            Cookie Policy
                                         </Link>
                                         <Link className="dropdown-item" href="/politicas/privacidad" onClick={handleLinkClick}>
-                                            Política de Privacidad
+                                            Privacy Policy
                                         </Link>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                        Categorías
+                                        Categories
                                     </a>
                                     <div className="dropdown-menu">
                                         <Link className="dropdown-item" href="/categorias/ciencias" onClick={handleLinkClick}>
-                                            Ciencias
+                                            Science
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/entretenimiento" onClick={handleLinkClick}>
-                                            Entretenimiento
+                                            Entertainment
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/finanzas" onClick={handleLinkClick}>
-                                            Finanzas
+                                            Finance
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/salud" onClick={handleLinkClick}>
-                                            Salud
+                                            Health
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/tecnologia" onClick={handleLinkClick}>
-                                            Tecnología
+                                            Technology
                                         </Link>
                                     </div>
                                 </li>
@@ -88,12 +88,12 @@ export const NavBar = () => {
                                 <input
                                     className="form-control me-sm-2"
                                     type="search"
-                                    placeholder="Buscar publicación"
+                                    placeholder="Search Projects"
                                     value={searchQuery}
                                     onChange={handleInputChange}
                                 />
                                 <button className="btn btn-secondary my-2 my-sm-0" type="submit">
-                                    Buscar
+                                    Find
                                 </button>
                             </form>
                         </div>

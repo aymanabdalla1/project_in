@@ -14,14 +14,14 @@ import SaludPosts from "./categorias/salud/PreviousPosts";
 import TecnologiaPosts from "./categorias/tecnologia/PreviousPosts";
 
 export const metadata = {
-  title: 'Inicio | La Hora Libre',
-  description: '¿Qué es lahoralibre.com?',
-  keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre inicio', 'la hora libre blog'],
+  title: 'Project In',
+  description: 'Start your project with us!',
+  keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
   authors: [{ name: 'lahoralibre' }, { name: 'lahoralibre.com', url: 'https://lahoralibre.com/' }],
   creator: 'lahoralibre.com/',
   publisher: 'lahoralibre.com',
   icons: {
-    icon: '/LOGO_noBackground.png',
+    icon: '/small_logo.png',
   },
 }
 export default function Home() {
@@ -29,12 +29,12 @@ export default function Home() {
     <main>
       {/* [Corpus; HEADER] */}
       <Head>
-        <title>Inicio | La Hora Libre</title>
+        <title>Projec In</title>
         <meta name="description" content="Una fuente de artículos imparcial y de calidad en la era digital con el objetivo de brindar una cobertura periodística completa, equilibrada y resumida, comprometido con los principios éticos y profesionales del periodismo digital moderno." />
         <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre inicio, la hora libre contacto, la hora libre support, la, hora, libre" />
         <meta name="author" content="lahoralibre" />
         <link rel="canonical" href="https://lahoralibre.com/" />
-        <link rel="icon" href="/LOGO_noBackground.png" sizes="any" />
+        <link rel="icon" href="/small_logo.png" sizes="any" />
       </Head>
 
 

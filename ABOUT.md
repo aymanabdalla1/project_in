@@ -1,10 +1,3 @@
-
-# ReactJS & NextJS Blogsite (La Hora Libre)
-
-*The **'lahoralibre.com'** project was a means of dissemination in Spanish powered by an Artificial Intelligence engine developed in El Salvador.*
-*The project had to be scrapped for multiple private reasons*
-
-However, this is the original Front-End repository available to anyone on the internet :D
 ## API Reference
 All blog articles were generated using the Barlow AI Engine, which is now deprecated
 
