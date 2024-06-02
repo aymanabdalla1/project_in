@@ -100,7 +100,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-image: url('background.jpg');
+  background-image: url('background.png');
   background-size: auto;
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -12364,6 +12364,7 @@ fieldset:disabled .btn {
 
 .navbar-brand {
   margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .bg-light {
