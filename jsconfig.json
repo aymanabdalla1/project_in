@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/politicas/privacy/Section": ["./app/politicas/privacy/Section.jsx"],
+      "@/politicas/privacy/page": ["./app/politicas/privacy/page.jsx"]
     }
   }
 }

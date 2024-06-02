@@ -29,8 +29,8 @@ export default function Home() {
     <main>
       {/* [Corpus; HEADER] */}
       <Head>
-        <title>Projec In</title>
-        <meta name="description" content="Una fuente de artículos imparcial y de calidad en la era digital con el objetivo de brindar una cobertura periodística completa, equilibrada y resumida, comprometido con los principios éticos y profesionales del periodismo digital moderno." />
+        <title>Project In</title>
+        <meta name="description" content="An impartial and quality source of articles in the digital era with the aim of providing complete, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
         <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre inicio, la hora libre contacto, la hora libre support, la, hora, libre" />
         <meta name="author" content="lahoralibre" />
         <link rel="canonical" href="https://lahoralibre.com/" />
@@ -46,51 +46,51 @@ export default function Home() {
       <br />
       <br />
 
-      {/* [Corpus; Ciencia] */}
+      {/* [Corpus; Science] */}
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          En relación a Ciencias
+          Regarding Science
         </h3>
       </div>
       <CienciasPosts />
       <hr />
 
-      {/* [Corpus; Entretenimiento] */}
+      {/* [Corpus; Entertainment] */}
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          En relación a Entretenimiento
+          Regarding Entertainment
         </h3>
       </div>
       <EntretenimientoPosts />
       <hr />
 
-      {/* [Corpus; Finanzas] */}
+      {/* [Corpus; Finance] */}
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          En relación a Finanzas
+          Regarding Finance
         </h3>
       </div>
       <FinanzasPosts />
       <hr />
 
-      {/* [Corpus; Salud] */}
+      {/* [Corpus; Health] */}
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          En relación a Salud
+          Regarding Health
         </h3>
       </div>
       <SaludPosts />
       <hr />
 
-      {/* [Corpus; Tecnología] */}
+      {/* [Corpus; Technology] */}
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          En relación a Tecnología
+          Regarding Technology
         </h3>
       </div>
       <TecnologiaPosts />

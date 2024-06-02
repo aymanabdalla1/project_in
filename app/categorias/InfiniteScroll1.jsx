@@ -6,13 +6,13 @@ import logsData from './logs.json';
 
 import "./progress4.css";
 
-export default function InfinityScroll() {
+export default function InfiniteScroll() {
     const [pages, setPages] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchPagesContent = async () => {
-            const cat1Pages = logsData.cat1.slice(0, 5); // Mostrar solo las primeras 5 páginas
+            const cat1Pages = logsData.cat1.slice(0, 5); // Show only the first 5 pages
             const pagesContent = [];
 
             for (const page of cat1Pages) {
@@ -21,25 +21,25 @@ export default function InfinityScroll() {
                     const html = response.data;
                     const $ = cheerio.load(html);
 
-                    // Aquí especifica los selectores de los elementos que deseas excluir
+                    // Specify the selectors of the elements you want to exclude here
                     const navigationBarSelector = '.navbar';
                     const footerSelector = 'footer';
 
-                    // Elimina la barra de navegación del contenido
+                    // Remove the navigation bar from the content
                     $(navigationBarSelector).remove();
 
-                    // Elimina el footer del contenido
+                    // Remove the footer from the content
                     $(footerSelector).remove();
 
                     const pageContent = $.html();
                     pagesContent.push(pageContent);
                 } catch (error) {
-                    console.error(`[Barlow (ERROR); Error al obtener el contenido de la página ${page}: ${error}]`);
+                    console.error(`[Barlow (ERROR); Error getting content from page ${page}: ${error}]`);
                 }
             }
 
             setPages(pagesContent);
-            setLoading(false); // Finaliza la carga y oculta el progress bar
+            setLoading(false); // Finish loading and hide the progress bar
         };
 
         fetchPagesContent();
@@ -47,13 +47,13 @@ export default function InfinityScroll() {
 
     return (
         <div className='container-fluid'>
-            <h3>Artículos relacionados:</h3>
-            {loading ? ( // Muestra el progress bar mientras loading es true
+            <h3>Related Articles:</h3>
+            {loading ? ( // Show the progress bar while loading is true
                 <div className="container-fluid custom-loader d-flex justify-content-center mt-4"></div>
             ) : (
                 pages.map((pageContent, index) => (
                     <div key={index}>
-                        {/* <h2>Página {index + 1}</h2> */}
+                        {/* <h2>Page {index + 1}</h2> */}
                         <div dangerouslySetInnerHTML={{ __html: pageContent }} />
                     </div>
                 ))

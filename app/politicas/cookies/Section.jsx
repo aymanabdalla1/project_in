@@ -4,72 +4,67 @@ import Image from "next/image";
 
 import "/public/css/bootstrap.css";
 
-
-
 const CookiesSection = () => {
     return (
         <React.Fragment>
-            {/* [Corpus; HEADER] */}
+            {/* [Header] */}
             <Head>
-                <title>Política de Cookies | La Hora Libre</title>
-                <meta name="description" content="Una fuente de artículos imparcial y de calidad en la era digital con el objetivo de brindar una cobertura periodística completa, equilibrada y resumida, comprometido con los principios éticos y profesionales del periodismo digital moderno." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre inicio, la hora libre cookies, la hora libre support, la, hora, libre" />
+                <title>Cookie Policy | La Hora Libre</title>
+                <meta name="description" content="An impartial and quality source of articles in the digital era with the aim of providing complete, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
+                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre home, la hora libre cookies, la hora libre support, la, hora, libre" />
                 <meta name="author" content="lahoralibre" />
                 <link rel="canonical" href="https://lahoralibre.com/" />
-                <link rel="icon" href="/LOGO_noBackground.png" sizes="any" />
+                <link rel="icon" href="/project_logo.png" sizes="any" />
             </Head>
 
-            {/* [Corpus; Logotype] */}
+            {/* [Logotype] */}
             <div className='container-fluid d-flex mt-5 justify-content-center w-75'>
-                <Image src={'/LOGO_noBackground.png'} height={120} width={120} alt='La Hora Libre' />
+                <Image src={'/project_logo.png'} height={120} width={400} alt='La Hora Libre' />
             </div>
 
-            {/* [Corpus; Títular de documento] */}
+            {/* [Document Title] */}
             <div className="container-fluid mt-5 w-75">
                 <h2 className="text-center">
-                    POLÍTICA DE COOKIES
+                    COOKIE POLICY
                 </h2>
-                <p className="text-center text-muted">
-                    www.lahoralibre.com
-                </p>
             </div>
 
-            {/* [Corpus; Cuerpo de documento] */}
+            {/* [Document Body] */}
             <div className="container-fluid mt-4 w-75">
                 <p>
-                    El acceso a este Sitio Web puede implicar la utilización de cookies. Las cookies son pequeñas cantidades de información que se almacenan en el navegador utilizado por cada Usuario —en los distintos dispositivos que pueda utilizar para navegar— para que el servidor recuerde cierta información que posteriormente y únicamente el servidor que la implementó leerá. Las cookies facilitan la navegación, la hacen más amigable, y no dañan el dispositivo de navegación.
+                    Access to this website may involve the use of cookies. Cookies are small amounts of information stored in the browser used by each User — on the different devices they may use to browse — so that the server remembers certain information that only the server that implemented it will read. Cookies facilitate navigation, make it more user-friendly, and do not damage the browsing device.
                 </p>
                 <p>
-                    Las cookies son procedimientos automáticos de recogida de información relativa a las preferencias determinadas por el Usuario durante su visita al Sitio Web con el fin de reconocerlo como Usuario, y personalizar su experiencia y el uso del Sitio Web, y pueden también, por ejemplo, ayudar a identificar y resolver errores.
+                    Cookies are automatic procedures for collecting information related to the preferences determined by the User during their visit to the website in order to recognize them as a User, personalize their experience and use of the website, and can also, for example, help identify and resolve errors.
                 </p>
                 <p>
-                    La información recabada a través de las cookies puede incluir la fecha y hora de visitas al Sitio Web, las páginas visionadas, el tiempo que ha estado en el Sitio Web y los sitios visitados justo antes y después del mismo. Sin embargo, ninguna cookie permite que esta misma pueda contactarse con el número de teléfono del Usuario o con cualquier otro medio de contacto personal. Ninguna cookie puede extraer información del disco duro del Usuario o robar información personal. La única manera de que la información privada del Usuario forme parte del archivo Cookie es que el usuario dé personalmente esa información al servidor.
+                    The information collected through cookies may include the date and time of visits to the website, the pages viewed, the time spent on the website, and the sites visited immediately before and after. However, no cookie allows this information to be contacted with the User's telephone number or any other means of personal contact. No cookie can extract information from the User's hard drive or steal personal information. The only way for the User's private information to be part of the Cookie file is for the user to personally provide that information to the server.
                 </p>
                 <p>
-                    Las cookies que permiten identificar a una persona se consideran datos personales. Por tanto, a las mismas les será de aplicación la Política de Privacidad anteriormente descrita. En este sentido, para la utilización de las mismas será necesario el consentimiento del Usuario. Este consentimiento será comunicado, en base a una elección auténtica, ofrecido mediante una decisión afirmativa y positiva, antes del tratamiento inicial, removible y documentado.
-                </p>
-
-                <h3 className="mt-5">
-                    Cookies de terceros
-                </h3>
-                <p>
-                    Son cookies utilizadas y gestionadas por entidades externas que proporcionan a lahoralibre servicios solicitados por este mismo para mejorar el Sitio Web y la experiencia del usuario al navegar en el Sitio Web. Los principales objetivos para los que se utilizan cookies de terceros son la obtención de estadísticas de accesos y analizar la información de la navegación, es decir, cómo interactúa el Usuario con el Sitio Web.
-                </p>
-                <p>
-                    La información que se obtiene se refiere, por ejemplo, al número de páginas visitadas, el idioma, el lugar a la que la dirección IP desde el que accede el Usuario, el número de Usuarios que acceden, la frecuencia y reincidencia de las visitas, el tiempo de visita, el navegador que usan, el operador o tipo de dispositivo desde el que se realiza la visita. Esta información se utiliza para mejorar el Sitio Web, y detectar nuevas necesidades para ofrecer a los Usuarios un Contenido y/o servicio de óptima calidad. En todo caso, la información se recopila de forma anónima y se elaboran informes de tendencias del Sitio Web sin identificar a usuarios individuales.
-                </p>
-                <p>
-                    Puede obtener más información sobre las cookies, la información sobre la privacidad, o consultar la descripción del tipo de cookies que se utiliza, sus principales características, periodo de expiración, etc. en el siguiente(s) enlace(s):
-                </p>
-                <p>
-                    La(s) entidad(es) encargada(s) del suministro de cookies podrá(n) ceder esta información a terceros, siempre y cuando lo exija la ley o sea un tercero el que procese esta información para dichas entidades.
+                    Cookies that allow a person to be identified are considered personal data. Therefore, the Privacy Policy described above applies to them. In this regard, the User's consent will be necessary for their use. This consent will be communicated, based on an authentic choice, offered through an affirmative and positive decision, before the initial processing, removable, and documented.
                 </p>
 
                 <h3 className="mt-5">
-                    Deshabilitar, rechazar y eliminar cookies
+                    Third-Party Cookies
                 </h3>
                 <p>
-                    El Usuario puede deshabilitar, rechazar y eliminar las cookies —total o parcialmente— instaladas en su dispositivo mediante la configuración de su navegador (entre los que se encuentran, por ejemplo, Chrome, Firefox, Safari, Explorer). En este sentido, los procedimientos para rechazar y eliminar las cookies pueden diferir de un navegador de Internet a otro. En consecuencia, el Usuario debe acudir a las instrucciones facilitadas por el propio navegador de Internet que esté utilizando. En el supuesto de que rechace el uso de cookies —total o parcialmente— podrá seguir usando el Sitio Web, si bien podrá tener limitada la utilización de algunas de las prestaciones del mismo.
+                    These are cookies used and managed by external entities that provide services requested by lahoralibre to improve the website and the user's browsing experience on the website. The main objectives for which third-party cookies are used are to obtain access statistics and analyze browsing information, i.e., how the User interacts with the website.
+                </p>
+                <p>
+                    The information obtained refers, for example, to the number of pages visited, the language, the location from which the User's IP address accesses, the number of Users who access, the frequency and recurrence of visits, the time of visit, the browser used, the operator or type of device from which the visit is made. This information is used to improve the website and identify new needs to offer Users optimal quality content and/or service. In any case, the information is collected anonymously and trend reports of the website are prepared without identifying individual users.
+                </p>
+                <p>
+                    You can obtain more information about cookies, information about privacy, or consult the description of the type of cookies used, their main characteristics, expiration period, etc. at the following link(s):
+                </p>
+                <p>
+                    The entity(ies) responsible for supplying cookies may transfer this information to third parties, provided that it is required by law or a third party processes this information for such entities.
+                </p>
+
+                <h3 className="mt-5">
+                    Disabling, Rejecting, and Deleting Cookies
+                </h3>
+                <p>
+                    The User can disable, reject, and delete cookies — in whole or in part — installed on their device by configuring their browser (including, for example, Chrome, Firefox, Safari, Explorer). In this regard, the procedures for rejecting and deleting cookies may differ from one Internet browser to another. Therefore, the User should refer to the instructions provided by the Internet browser they are using. If the User rejects the use of cookies — in whole or in part — they may still use the website, although they may have limited use of some of its features.
                 </p>
             </div>
         </React.Fragment>

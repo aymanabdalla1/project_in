@@ -8,8 +8,8 @@ import "/public/css/bootstrap.css";
 
 
 export const metadata = {
-    title: 'Sobre nosotros | La Hora Libre',
-    description: '¿Qué es lahoralibre.com?',
+    title: 'About us | La Hora Libre',
+    description: 'What is lahoralibre.com?',
     keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre info', 'la hora libre about'],
     authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/info' }],
     creator: 'lahoralibre.com/info',
@@ -20,18 +20,18 @@ export const metadata = {
 }
 export default function InfoSection() {
     const helps = [
-        "Desactivando el Ad-Block de tu navegador, de esta forma nos permites generar ingresos mediante anuncios.",
-        "Compartiendo el sitio con tus amigos y en toda la red.",
-        "Realizando una modesta donación (el enlace lo encontrarás al final de la página)."
+        "Disabling the Ad-Block of your browser, this way you allow us to generate income through ads.",
+        "Sharing the site with your friends and across the network.",
+        "Making a modest donation (you will find the link at the end of the page)."
     ];
 
     return (
         <React.Fragment>
             {/* [Corpus; HEADER] */}
             <Head>
-                <title>Sobre nosotros | La Hora Libre</title>
-                <meta name="description" content="Una fuente de artículos imparcial y de calidad en la era digital con el objetivo de brindar una cobertura periodística completa, equilibrada y resumida, comprometido con los principios éticos y profesionales del periodismo digital moderno." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre info, la hora libre contacto, la hora libre support, la, hora, libre" />
+                <title>About us | La Hora Libre</title>
+                <meta name="description" content="A source of unbiased and quality articles in the digital age with the aim of providing comprehensive, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
+                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre info, la hora libre contact, la hora libre support, la, hour, free" />
                 <meta name="author" content="lahoralibre" />
                 <link rel="canonical" href="https://lahoralibre.com/" />
                 <link rel="icon" href="/LOGO_noBackground.png" sizes="any" />
@@ -40,20 +40,20 @@ export default function InfoSection() {
 
             {/* [Corpus; Logotype] */}
             <div className='container-fluid mt-3 d-flex justify-content-center w-75 p-1'>
-                <Image src={'/LOGO_noBackground.png'} width={240} height={240} alt='La Hora Libre' />
+                <Image src={'/project_logo.png'} width={550} height={220} alt='La Hora Libre' />
             </div>
 
 
             {/* [Corpus; Title] */}
             <div className='container-fluid mt-5 w-75 p-1'>
                 <h2 className='text-center'>
-                    ¿Qué es lahoralibre?
+                    What is Project In?
                 </h2>
                 <p className='text-center'>
-                    Es un medio de difusión que está desempeñando un papel destacado como fuente confiable de información en línea. Fundado en 2023, nace buscando ser un referente en el mundo de la comunicación gracias a su amplia capacidad de redacción y cobertura exhaustiva y objetiva potenciado por un motor de Inteligencia Artificial desarrollado recientemente en El Salvador, BARLOW Engine.
+                    It is a media outlet that is playing a prominent role as a reliable source of online information. Founded in 2023, it aims to be a reference in the world of communication thanks to its extensive writing and comprehensive and objective coverage powered by a recently developed Artificial Intelligence engine in El Salvador, BARLOW Engine.
                 </p>
                 <p className='text-center mt-5'>
-                    Concebido como una respuesta a la necesidad de una fuente de artículos imparcial y de calidad en la era digital. Con el objetivo de brindar una cobertura periodística completa, equilibrada y resumida, comprometido con los principios éticos y profesionales del periodismo digital moderno.
+                    Conceived as a response to the need for an unbiased and quality source of articles in the digital age. With the aim of providing comprehensive, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism.
                 </p>
             </div>
 
@@ -65,9 +65,9 @@ export default function InfoSection() {
                         <Image src={'/about/about17.svg'} width={250} height={250} alt='Barlow | La Hora Libre' />
                     </div>
                     <div className='col-md-6 mt-4'>
-                        <h3>¿Qué es Barlow Engine?</h3>
+                        <h3>What is Barlow Engine?</h3>
                         <p>
-                            Es el nombre del Motor de IA utilizado por lahoralibre.com para poder generar cada artículo publicado y por publicar en el sitio, desarrollado en El Salvador, es un potente y avanzado software diseñado para generar respuestas coherentes y relevantes ya que hace uso de modelos entrenados utilizando una enorme cantidad de información proveniente de diversas fuentes en Internet, lo que le brinda un amplio conocimiento sobre una amplia gama de temas.
+                            It is the name of the AI Engine used by lahoralibre.com to generate each published article and those to be published on the site. Developed in El Salvador, it is a powerful and advanced software designed to generate coherent and relevant responses as it uses trained models using a huge amount of information from various sources on the Internet, which gives it extensive knowledge on a wide range of topics.
                         </p>
                     </div>
                 </div>
@@ -78,18 +78,18 @@ export default function InfoSection() {
 
             {/* [Corpus; Section 2] */}
             <div className='container-fluid mt-5 w-75'>
-                <h2 className='mt-4'>¿Por qué?</h2>
+                <h2 className='mt-4'>Why?</h2>
                 <p>
-                    La inteligencia artificial moderna es una revolución que desafía los límites del conocimiento y abre nuevas oportunidades en todos los aspectos de nuestras vidas. Desde máquinas que aprenden y toman decisiones autónomas hasta asistentes virtuales inteligentes, está transformando nuestra forma de interactuar y resolver problemas. Es un camino hacia un futuro lleno de posibilidades emocionantes y desafíos éticos.
+                    Modern artificial intelligence is a revolution that challenges the limits of knowledge and opens up new opportunities in all aspects of our lives. From machines that learn and make autonomous decisions to intelligent virtual assistants, it is transforming the way we interact and solve problems. It is a path to a future full of exciting possibilities and ethical challenges.
                 </p>
             </div>
 
 
             {/* [Corpus; Section 3] */}
             <div className='container-fluid mt-5 w-75'>
-                <h3>Pero...</h3>
+                <h3>But...</h3>
                 <p>
-                    Es importante tener en cuenta que el uso de inteligencia artificial consume un poco más de energía eléctrica debido a la potencia de cómputo necesaria, el entrenamiento de modelos intensivo en cálculos, la infraestructura de hardware especializada y la necesidad de mantener la disponibilidad del servicio.
+                    It is important to note that the use of artificial intelligence consumes a little more electrical energy due to the necessary computing power, intensive model training in calculations, specialized hardware infrastructure, and the need to maintain service availability.
                 </p>
 
                 <div className='container-fluid mt-5 d-flex justify-content-center'>
@@ -99,17 +99,17 @@ export default function InfoSection() {
                 <div className='mt-3 d-flex justify-content-center'>
                     <Donation />
                 </div>
-                <p className='mt-3 text-center text-muted'>Ayúdanos a mantener el proyecto a flote</p>
+                <p className='mt-3 text-center text-muted'>Help us keep the project afloat</p>
             </div>
 
 
             {/* [Corpus; Section 4] */}
             <div className='container-fluid mt-5'>
                 <h2 className='text-center'>
-                    ¿Cómo puedo ayudar?
+                    How can I help?
                 </h2>
                 <p className='text-center'>
-                    Actualmente existen tres formas en que puedes ayudarnos:
+                    There are currently three ways you can help us:
                 </p>
 
                 <div className='d-flex justify-content-center'>
@@ -132,10 +132,10 @@ export default function InfoSection() {
 
 
                 <h2 className='text-center mt-3'>
-                    Esto es un medio de difusión:
+                    This is a media outlet:
                 </h2>
                 <p className='text-center'>
-                    Toda la información mostrada en este sitio es fidedigna, gratuita, y accesible para cualquier usuario.
+                    All the information displayed on this site is reliable, free, and accessible to any user.
                 </p>
             </div>
         </React.Fragment>
