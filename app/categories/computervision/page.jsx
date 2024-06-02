@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { Section } from "./Section";
 
 export const metadata = {
-    title: 'Tecnología | La Hora Libre',
+    title: 'Computer Vision',
     description: 'Artículos interesantes relacionados al ámbito de la tecnología',
     keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre tecnologia', 'la hora libre categoria tecnologia'],
     authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categorias/tecnologia' }],

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { Section } from "./Section";
 
 export const metadata = {
-    title: 'Salud | La Hora Libre',
+    title: 'Machine Learning',
     description: 'Artículos interesantes relacionados al ámbito de la salud humana',
     keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre salud', 'la hora libre categoria salud'],
     authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categorias/salud' }],

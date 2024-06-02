@@ -7,11 +7,11 @@ import "../public/css/bootstrap.css";
 import Init from "./Home/HomeSection";
 
 /* [Corpus; SECTIONS] */
-import CienciasPosts from "./categorias/ciencias/PreviousPosts";
-import EntretenimientoPosts from "./categorias/entretenimiento/PreviousPosts";
-import FinanzasPosts from "./categorias/finanzas/PreviousPosts";
-import SaludPosts from "./categorias/salud/PreviousPosts";
-import TecnologiaPosts from "./categorias/tecnologia/PreviousPosts";
+import CienciasPosts from "./categories/frontend/PreviousPosts";
+import EntretenimientoPosts from "./categories/backend/PreviousPosts";
+import FinanzasPosts from "./categories/frontend/PreviousPosts";
+import SaludPosts from "./categories/machinelearning/PreviousPosts";
+import TecnologiaPosts from "./categories/computervision/PreviousPosts";
 
 export const metadata = {
   title: 'Project In',
