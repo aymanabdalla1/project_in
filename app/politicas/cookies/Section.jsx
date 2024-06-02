@@ -9,11 +9,11 @@ const CookiesSection = () => {
         <React.Fragment>
             {/* [Header] */}
             <Head>
-                <title>Cookie Policy | La Hora Libre</title>
-                <meta name="description" content="An impartial and quality source of articles in the digital era with the aim of providing complete, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre home, la hora libre cookies, la hora libre support, la, hora, libre" />
-                <meta name="author" content="lahoralibre" />
-                <link rel="canonical" href="https://lahoralibre.com/" />
+                <title>Cookie Policy</title>
+                <meta name="description" content="ProjectIn: the central hub for sharing software project ideas. From apps to algorithms, ProjectIn fosters collaboration and sparks inspiration. Pitch your ideas, receive feedback, and connect with like-minded tech enthusiasts. Turn your imagination into reality with ProjectIn " />
+                <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+                <meta name="author" content="prject in" />
+                <link rel="canonical" href="https://projectin.com/" />
                 <link rel="icon" href="/project_logo.png" sizes="any" />
             </Head>
 

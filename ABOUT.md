@@ -1,14 +1,3 @@
-### 'GET' removed for this repository
-```http
-  GET $(local)/api/barlow
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `json` | **(Required)** Generate a new article. |
-| `api_key` | `img` | **(Required)** Scrapy a image without copyright, relasionated with the article. |
-
-
 ## Deployment
 
 - Clone repository:
@@ -59,10 +48,4 @@ This will create an `out` folder with the file "index.html" just like a ReactJS 
 - [NextJS: Static Export](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
 - [NextJS: Static Site Generation](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation)
 - [NextJS: Static & Dynamic Rendering](https://nextjs.org/docs/app/building-your-application/rendering/static-and-dynamic-rendering)
-.
-## Feedback
-If you have any feedback, please reach out to me at:
 
-[![instagram](https://img.shields.io/badge/instagram-0A66C2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/christcastr/)
-
-[![portfolio](https://img.shields.io/badge/buy_me_a_coffee-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.paypal.com/paypalme/christcastr/)
