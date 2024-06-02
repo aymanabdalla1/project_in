@@ -1,6 +1,3 @@
-## API Reference
-All blog articles were generated using the Barlow AI Engine, which is now deprecated
-
 ### 'GET' removed for this repository
 ```http
   GET $(local)/api/barlow

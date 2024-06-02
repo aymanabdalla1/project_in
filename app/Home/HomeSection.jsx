@@ -28,46 +28,46 @@ const Home = () => {
 
 
                 {/* [Corpus; Introduction] */}
-                <div className='container mt-1 w-75'>
+                <div className='container mt-4 w-75'>
                     <div>
                         <h1 className="text-center">FIND IDEAS TO HELP START YOUR SIDE PROJECT!</h1>
                         <p className="text-center">
-                            Explore a captivating digital destination with articles on science, entertainment, finance, health, and technology. Discover updated knowledge and fascinating advances of humanity, guided by Artificial Intelligence.
+                            Explore software project ideas that will help you decide on your next side project.
                         </p>
                     </div>
 
                     <div className='row mt-5'>
                         <div className='col-md-6'>
-                            <Image src={'/about/about5.svg'} width={250} height={250} alt='Barlow | La Hora Libre' />
+                            <Image src={'/about/program_icon.png'} width={250} height={250} alt='Barlow | La Hora Libre' />
                         </div>
                         <div className='col-md-6 mt-4'>
-                            <h3>How does it work?</h3>
+                            <h3>Where to start?</h3>
                             <p>
-                                The site uses Barlow, an Artificial Intelligence engine recently developed in El Salvador. The engine uses automated reasoning techniques to analyze available information and apply predefined or learned rules from data. It can work with rule sets defined by human experts or learn new rules through machine learning techniques.
+                               Start exploring the different categories at the bottom of the page to find the perfect project idea for you. Choose from many different categories such as front-end, back-end, full-stack, and more.
                             </p>
                         </div>
                     </div>
 
                     <div className='row mt-5'>
                         <div className='col-md-6 order-md-2 d-flex justify-content-center'>
-                            <Image src={'/about/about2.svg'} width={250} height={250} alt='Barlow | La Hora Libre' />
+                            <Image src={'/about/goto_icon.png'} width={250} height={250} alt='Barlow | La Hora Libre' />
                         </div>
                         <div className='col-md-6 mt-4 order-md-1'>
-                            <h3>Is it free?</h3>
+                            <h3>Can I add my own idea?</h3>
                             <p>
-                                In a digital era where information flows at an unprecedented speed, it is argued that restricting access to information can limit learning, innovation, and equal opportunities. By making information free, the aim is to eliminate economic barriers and ensure that anyone, regardless of their background or resources, can access knowledge and educational resources.
+                                Yes you can! If you have a project idea that you would like to share with the community, you can submit it using the "Add Idea" button at the bottom of the page once youre logged in.
                             </p>
                         </div>
                     </div>
 
                     <div className='row mt-5'>
                         <div className='col-md-6'>
-                            <Image src={'/about/about15.svg'} width={250} height={250} alt='Barlow | La Hora Libre' />
+                            <Image src={'/about/test_icon.png'} width={250} height={250} alt='Barlow | La Hora Libre' />
                         </div>
                         <div className='col-md-6 mt-4'>
-                            <h3>Just enjoy it</h3>
+                            <h3>See a problem?</h3>
                             <p>
-                                Our articles are an invaluable source of information backed by reliable sources, designed to both entertain and enrich your projects. With a rigorous focus on accuracy and truthfulness, we offer you a treasure trove of reliable knowledge to satisfy your interests and informational needs.
+                                Feel free to suggest any improvements or report any issues you may find using the "Report Issue" button at the bottom of the page. Project In started as a side project and is always looking to improve.
                             </p>
                         </div>
                     </div>

@@ -17,9 +17,9 @@ export const metadata = {
   title: 'Project In',
   description: 'Start your project with us!',
   keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
-  authors: [{ name: 'lahoralibre' }, { name: 'lahoralibre.com', url: 'https://lahoralibre.com/' }],
-  creator: 'lahoralibre.com/',
-  publisher: 'lahoralibre.com',
+  authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
+  creator: 'aymanabdalla.me',
+  publisher: 'aymanabdalla.me',
   icons: {
     icon: '/small_logo.png',
   },
@@ -31,8 +31,8 @@ export default function Home() {
       <Head>
         <title>Project In</title>
         <meta name="description" content="An impartial and quality source of articles in the digital era with the aim of providing complete, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
-        <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre inicio, la hora libre contacto, la hora libre support, la, hora, libre" />
-        <meta name="author" content="lahoralibre" />
+        <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+        <meta name="author" content="projectin" />
         <link rel="canonical" href="https://lahoralibre.com/" />
         <link rel="icon" href="/small_logo.png" sizes="any" />
       </Head>
@@ -50,7 +50,7 @@ export default function Home() {
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          Regarding Science
+          Front-End
         </h3>
       </div>
       <CienciasPosts />
@@ -60,7 +60,7 @@ export default function Home() {
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          Regarding Entertainment
+          Back-End
         </h3>
       </div>
       <EntretenimientoPosts />
@@ -70,7 +70,7 @@ export default function Home() {
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          Regarding Finance
+          Full-Stack
         </h3>
       </div>
       <FinanzasPosts />
@@ -80,7 +80,7 @@ export default function Home() {
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          Regarding Health
+          Machine Learning
         </h3>
       </div>
       <SaludPosts />
@@ -90,7 +90,7 @@ export default function Home() {
       <div className="container-fluid mt-5 w-75">
         <hr />
         <h3 className="text-center">
-          Regarding Technology
+          Computer Vision
         </h3>
       </div>
       <TecnologiaPosts />
