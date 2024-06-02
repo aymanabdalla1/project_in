@@ -73,45 +73,6 @@ export default function PreviousPosts() {
                     </div>
                 </div>
             </div>
-            {/* [POST 4] */}
-            <div className="container-fluid mt-2 w-75 p-1">
-                <div className="card">
-                    {/* <Image src={img1} className="card-img-top" width={80} height={80} alt="Loading... | La Hora Libre" /> */}
-                    <div className="card-body">
-                        <h5 className="card-title">{json4.title}</h5>
-                        <p className="card-text">{json4.introduction}</p>
-                        <div className="d-flex justify-content-end">
-                            <Link href={'/categories/technology/' + json4.routeTitle}><button className="btn btn-primary">Read article</button></Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* [POST 5] */}
-            <div className="container-fluid mt-2 w-75 p-1">
-                <div className="card">
-                    {/* <Image src={img1} className="card-img-top" width={80} height={80} alt="Loading... | La Hora Libre" /> */}
-                    <div className="card-body">
-                        <h5 className="card-title">{json5.title}</h5>
-                        <p className="card-text">{json5.introduction}</p>
-                        <div className="d-flex justify-content-end">
-                            <Link href={'/categories/technology/' + json5.routeTitle}><button className="btn btn-primary">Read article</button></Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* [POST 6] */}
-            <div className="container-fluid mt-2 w-75 p-1">
-                <div className="card">
-                    {/* <Image src={img1} className="card-img-top" width={80} height={80} alt="Loading... | La Hora Libre" /> */}
-                    <div className="card-body">
-                        <h5 className="card-title">{json6.title}</h5>
-                        <p className="card-text">{json6.introduction}</p>
-                        <div className="d-flex justify-content-end">
-                            <Link href={'/categories/technology/' + json6.routeTitle}><button className="btn btn-primary">Read article</button></Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </React.Fragment>
     );
 };
