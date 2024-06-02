@@ -37,7 +37,7 @@ const Home = () => {
                     </div>
 
                     <div className='row mt-5'>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 d-flex justify-content-center'>
                             <Image src={'/about/program_icon.png'} width={250} height={250} alt='program icon' />
                         </div>
                         <div className='col-md-6 mt-4'>
@@ -61,7 +61,7 @@ const Home = () => {
                     </div>
 
                     <div className='row mt-5'>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 d-flex justify-content-center'>
                             <Image src={'/about/test_icon.png'} width={250} height={250} alt='test icon' />
                         </div>
                         <div className='col-md-6 mt-4'>
