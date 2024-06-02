@@ -2,20 +2,18 @@ import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 
-import Donation from "./PayPalDonation";
-
 import "/public/css/bootstrap.css";
 
 
 export const metadata = {
-    title: 'About us | La Hora Libre',
-    description: 'What is lahoralibre.com?',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre info', 'la hora libre about'],
-    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/info' }],
-    creator: 'lahoralibre.com/info',
-    publisher: 'Barlow',
+    title: 'About us',
+    description: 'Start your project with us!',
+    keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
+    authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
+    creator: 'aymanabdalla.me',
+    publisher: 'aymanabdalla.me',
     icons: {
-        icon: '/LOGO_noBackground.png',
+      icon: '/small_logo.png',
     },
 }
 export default function InfoSection() {
@@ -40,7 +38,7 @@ export default function InfoSection() {
 
             {/* [Corpus; Logotype] */}
             <div className='container-fluid mt-5 d-flex justify-content-center w-75'>
-                <Image src={'/project_logo.png'} width={400} height={120} alt='La Hora Libre' />
+                <Image src={'/project_logo.png'} width={400} height={120} alt='Project In' />
             </div>
 
 

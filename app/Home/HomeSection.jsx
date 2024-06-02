@@ -10,12 +10,12 @@ const Home = () => {
         <React.Fragment>
             {/* [Corpus; HEADER] */}
             <Head>
-                <title>Home | La Hora Libre</title>
-                <meta name="description" content="An impartial and quality source of articles in the digital era, aiming to provide complete, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre home, la hora libre contact, la hora libre support, la, hora, libre" />
-                <meta name="author" content="lahoralibre" />
-                <link rel="canonical" href="https://lahoralibre.com/" />
-                <link rel="icon" href="/LOGO_noBackground.png" sizes="any" />
+                <title>Home</title>
+                <meta name="description" content="ProjectIn: the central hub for sharing software project ideas. From apps to algorithms, ProjectIn fosters collaboration and sparks inspiration. Pitch your ideas, receive feedback, and connect with like-minded tech enthusiasts. Turn your imagination into reality with ProjectIn ." />
+                <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+                <meta name="author" content="projectin" />
+                <link rel="canonical" href="https://projectin.com/" />
+                <link rel="icon" href="/small_logo.png" sizes="any" />
             </Head>
 
 
@@ -23,7 +23,7 @@ const Home = () => {
                 
                 {/* [Corpus; Logotype] */}
                 <div className='container-fluid d-flex justify-content-center w-75'>
-                    <Image src={'/project_logo.png'} height={120} width={400} alt='La Hora Libre' />
+                    <Image src={'/project_logo.png'} height={120} width={400} alt='project icon' />
                 </div>
 
 
@@ -38,7 +38,7 @@ const Home = () => {
 
                     <div className='row mt-5'>
                         <div className='col-md-6'>
-                            <Image src={'/about/program_icon.png'} width={250} height={250} alt='Barlow | La Hora Libre' />
+                            <Image src={'/about/program_icon.png'} width={250} height={250} alt='program icon' />
                         </div>
                         <div className='col-md-6 mt-4'>
                             <h3>Where to start?</h3>
@@ -50,7 +50,7 @@ const Home = () => {
 
                     <div className='row mt-5'>
                         <div className='col-md-6 order-md-2 d-flex justify-content-center'>
-                            <Image src={'/about/goto_icon.png'} width={250} height={250} alt='Barlow | La Hora Libre' />
+                            <Image src={'/about/goto_icon.png'} width={250} height={250} alt='goto icon' />
                         </div>
                         <div className='col-md-6 mt-4 order-md-1'>
                             <h3>Can I add my own idea?</h3>
@@ -62,7 +62,7 @@ const Home = () => {
 
                     <div className='row mt-5'>
                         <div className='col-md-6'>
-                            <Image src={'/about/test_icon.png'} width={250} height={250} alt='Barlow | La Hora Libre' />
+                            <Image src={'/about/test_icon.png'} width={250} height={250} alt='test icon' />
                         </div>
                         <div className='col-md-6 mt-4'>
                             <h3>See a problem?</h3>

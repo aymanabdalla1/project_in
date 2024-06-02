@@ -3,14 +3,14 @@ import Head from 'next/head';
 import Privacy from "./Section";
 
 export const metadata = {
-    title: 'Privacy Policy | La Hora Libre',
-    description: 'Notice about Privacy Policy on La Hora Libre',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre cookies', 'la hora libre privacy', 'lahoralibre cookies', 'lahoralibre privacy'],
-    authors: [{ name: 'lahoralibre' }, { name: 'lahoralibre.com', url: 'https://lahoralibre.com/politicas/privacidad' }],
-    creator: 'lahoralibre.com/politicas/privacidad',
-    publisher: 'lahoralibre.com/',
+    title: 'Privacy Policy',
+    description: 'Notice about Privacy Policy',
+    keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
+    authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
+    creator: 'aymanabdalla.me',
+    publisher: 'aymanabdalla.me',
     icons: {
-        icon: '/small_logo.png',
+      icon: '/small_logo.png',
     },
 }
 export default function PrivacySection() {
@@ -18,11 +18,11 @@ export default function PrivacySection() {
         <React.Fragment>
             {/* [Header] */}
             <Head>
-                <title>Privacy Policy | La Hora Libre</title>
-                <meta name="description" content="A source of unbiased and quality articles in the digital era with the aim of providing comprehensive, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre home, la hora libre privacy, la hora libre support, la, hora, libre" />
-                <meta name="author" content="lahoralibre" />
-                <link rel="canonical" href="https://lahoralibre.com/" />
+                <title>Privacy Policy</title>
+                <meta name="description" content="ProjectIn: the central hub for sharing software project ideas. From apps to algorithms, ProjectIn fosters collaboration and sparks inspiration. Pitch your ideas, receive feedback, and connect with like-minded tech enthusiasts. Turn your imagination into reality with ProjectIn ." />
+                <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+                <meta name="author" content="projectin" />
+                <link rel="canonical" href="https://projectin.com/" />
                 <link rel="icon" href="/small_logo.png" sizes="any" />
             </Head>
 

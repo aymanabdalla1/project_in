@@ -6,14 +6,14 @@ import "public/css/bootstrap.css";
 
 
 export const metadata = {
-    title: 'Sobre nosotros | La Hora Libre',
-    description: '¿Qué es lahoralibre.com?',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre info', 'la hora libre about'],
-    authors: [{ name: 'Barlow' }, { name: 'lahoralibre.com', url: 'https://lahoralibre.com/info' }],
-    creator: 'lahoralibre.com/info',
-    publisher: 'lahoralibre.com',
+    title: 'About Us',
+    description: 'Start your project with us!',
+    keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
+    authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
+    creator: 'aymanabdalla.me',
+    publisher: 'aymanabdalla.me',
     icons: {
-        icon: '/LOGO_noBackground.png',
+      icon: '/small_logo.png',
     },
 }
 const About = () => {
@@ -21,12 +21,12 @@ const About = () => {
         <React.Fragment>
             {/* [Corpus; HEADER] */}
             <Head>
-                <title>Sobre nosotros | La Hora Libre</title>
-                <meta name="description" content="Una fuente de artículos imparcial y de calidad en la era digital con el objetivo de brindar una cobertura periodística completa, equilibrada y resumida, comprometido con los principios éticos y profesionales del periodismo digital moderno." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre info, la hora libre contacto, la hora libre support, la, hora, libre" />
-                <meta name="author" content="lahoralibre" />
-                <link rel="canonical" href="https://lahoralibre.com/" />
-                <link rel="icon" href="/LOGO_noBackground.png" sizes="any" />
+                <title>About Us</title>
+                <meta name="description" content="ProjectIn: the central hub for sharing software project ideas. From apps to algorithms, ProjectIn fosters collaboration and sparks inspiration. Pitch your ideas, receive feedback, and connect with like-minded tech enthusiasts. Turn your imagination into reality with ProjectIn ." />
+                <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+                <meta name="author" content="projectin" />
+                <link rel="canonical" href="https://projectin.com/" />
+                <link rel="icon" href="/small_logo.png" sizes="any" />
             </Head>
 
             {/* [Corpus; Content] */}

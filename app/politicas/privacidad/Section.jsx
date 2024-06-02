@@ -9,17 +9,17 @@ const PrivacySection = () => {
         <React.Fragment>
             {/* [Header] */}
             <Head>
-                <title>Privacy Policy | La Hora Libre</title>
-                <meta name="description" content="An impartial and quality source of articles in the digital era with the aim of providing complete, balanced, and summarized journalistic coverage, committed to the ethical and professional principles of modern digital journalism." />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, la hora libre, la hora libre home, la hora libre privacy, la hora libre support, la, hora, libre" />
-                <meta name="author" content="lahoralibre" />
-                <link rel="canonical" href="https://lahoralibre.com/" />
-                <link rel="icon" href="/small_logo.png" sizes="any" />
+                <title>Privacy Policy</title>
+                <meta name="description" content="ProjectIn: the central hub for sharing software project ideas. From apps to algorithms, ProjectIn fosters collaboration and sparks inspiration. Pitch your ideas, receive feedback, and connect with like-minded tech enthusiasts. Turn your imagination into reality with ProjectIn " />
+                <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+                <meta name="author" content="prject in" />
+                <link rel="canonical" href="https://projectin.com/" />
+                <link rel="icon" href="/project_logo.png" sizes="any" />
             </Head>
 
             {/* [Logotype] */}
             <div className='container-fluid d-flex mt-5 justify-content-center w-75'>
-                <Image src={'/project_logo.png'} height={120} width={400} alt='La Hora Libre' />
+                <Image src={'/project_logo.png'} height={120} width={400} alt='Project In' />
             </div>
 
             {/* [Document Title] */}
@@ -32,7 +32,7 @@ const PrivacySection = () => {
             {/* [Document Body] */}
             <div className="container-fluid mt-4 w-75">
                 <p>
-                    This Privacy Policy sets out the terms and conditions for the use and protection of information provided by users of www.lahoralibre.com when using its website. This company is committed to the security of its users' data. When we ask you to fill in personal information fields that can identify you, we do so by ensuring that it will only be used in accordance with the terms of this document. However, this Privacy Policy may change over time or be updated, so we recommend and emphasize that you review this page continuously to ensure that you agree to any such changes.
+                    This Privacy Policy sets out the terms and conditions for the use and protection of information provided by users of www.projectin.com when using its website. This company is committed to the security of its users' data. When we ask you to fill in personal information fields that can identify you, we do so by ensuring that it will only be used in accordance with the terms of this document. However, this Privacy Policy may change over time or be updated, so we recommend and emphasize that you review this page continuously to ensure that you agree to any such changes.
                 </p>
 
                 <h3 className="mt-5">
@@ -49,7 +49,7 @@ const PrivacySection = () => {
                     Our website uses the information to provide the best possible service, particularly to maintain a record of users, orders if applicable, and improve our products and services. Periodic emails may be sent through our site with special offers, new products, and other advertising information that we consider relevant to you or that may provide you with some benefit. These emails will be sent to the address you provide and can be canceled at any time.
                 </p>
                 <p>
-                    www.lahoralibre.com is highly committed to fulfilling the commitment to keep your information secure. We use the most advanced systems and constantly update them to ensure that there is no unauthorized access.
+                    www.projectin.com is highly committed to fulfilling the commitment to keep your information secure. We use the most advanced systems and constantly update them to ensure that there is no unauthorized access.
                 </p>
 
                 <h3 className="mt-5">

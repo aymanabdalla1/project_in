@@ -19,7 +19,7 @@ const CookiesSection = () => {
 
             {/* [Logotype] */}
             <div className='container-fluid d-flex mt-5 justify-content-center w-75'>
-                <Image src={'/project_logo.png'} height={120} width={400} alt='La Hora Libre' />
+                <Image src={'/project_logo.png'} height={120} width={400} alt='Project In' />
             </div>
 
             {/* [Document Title] */}
@@ -48,7 +48,7 @@ const CookiesSection = () => {
                     Third-Party Cookies
                 </h3>
                 <p>
-                    These are cookies used and managed by external entities that provide services requested by lahoralibre to improve the website and the user's browsing experience on the website. The main objectives for which third-party cookies are used are to obtain access statistics and analyze browsing information, i.e., how the User interacts with the website.
+                    These are cookies used and managed by external entities that provide services requested by Project In to improve the website and the user's browsing experience on the website. The main objectives for which third-party cookies are used are to obtain access statistics and analyze browsing information, i.e., how the User interacts with the website.
                 </p>
                 <p>
                     The information obtained refers, for example, to the number of pages visited, the language, the location from which the User's IP address accesses, the number of Users who access, the frequency and recurrence of visits, the time of visit, the browser used, the operator or type of device from which the visit is made. This information is used to improve the website and identify new needs to offer Users optimal quality content and/or service. In any case, the information is collected anonymously and trend reports of the website are prepared without identifying individual users.
