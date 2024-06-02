@@ -29,7 +29,7 @@ export default function PreviousPosts() {
             {/* [Corpus; Title] */}
             <div className="container-fluid mt-5 w-75 p-1">
                 <h2>
-                    Recientemente:
+                    Popular Posts:
                 </h2>
             </div>
 
