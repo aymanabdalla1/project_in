@@ -24,12 +24,12 @@ const Footer = () => {
                         <h5 className='text-center'>Social Media Links</h5>
                         <ul className="list-inline text-center">
                             <li className="list-inline-item">
-                                <a href="https://www.twitter.com/lahoralibreok" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
                                     <FaTwitter color="white"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
-                                <a href="https://www.instagram.com/lahoralibreok" target="_blank" rel="noopener noreferrer" color='white'>
+                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" color='white'>
                                     <FaInstagram color="white"/>
                                 </a>
                             </li>

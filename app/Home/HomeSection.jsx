@@ -32,7 +32,7 @@ const Home = () => {
                     <div>
                         <h1 className="text-center">FIND IDEAS TO HELP START YOUR SIDE PROJECT!</h1>
                         <p className="text-center">
-                            Explore software project ideas that will help you decide on your next side project.
+                            Explore different software development ideas that will help you decide on your next side project.
                         </p>
                     </div>
 
