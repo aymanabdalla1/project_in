@@ -7,11 +7,11 @@ import "../public/css/bootstrap.css";
 import Init from "./Home/HomeSection";
 
 /* [Corpus; SECTIONS] */
-import CienciasPosts from "./categories/frontend/PreviousPosts";
-import EntretenimientoPosts from "./categories/backend/PreviousPosts";
-import FinanzasPosts from "./categories/frontend/PreviousPosts";
-import SaludPosts from "./categories/machinelearning/PreviousPosts";
-import TecnologiaPosts from "./categories/computervision/PreviousPosts";
+import FrontEndPosts from "./categories/frontend/PreviousPosts";
+import BackendPosts from "./categories/backend/PreviousPosts";
+import FullStackPosts from "./categories/frontend/PreviousPosts";
+import MachineLearningPosts from "./categories/machinelearning/PreviousPosts";
+import ComputerVisionPosts from "./categories/computervision/PreviousPosts";
 
 export const metadata = {
   title: 'Project In',
@@ -53,8 +53,8 @@ export default function Home() {
           Front-End
         </h3>
       </div>
-      <CienciasPosts />
-      <hr />
+      <FrontEndPosts />
+
 
       {/* [Corpus; Entertainment] */}
       <div className="container-fluid mt-5 w-75">
@@ -63,8 +63,8 @@ export default function Home() {
           Back-End
         </h3>
       </div>
-      <EntretenimientoPosts />
-      <hr />
+      <BackendPosts />
+
 
       {/* [Corpus; Finance] */}
       <div className="container-fluid mt-5 w-75">
@@ -73,8 +73,8 @@ export default function Home() {
           Full-Stack
         </h3>
       </div>
-      <FinanzasPosts />
-      <hr />
+      <FullStackPosts />
+
 
       {/* [Corpus; Health] */}
       <div className="container-fluid mt-5 w-75">
@@ -83,8 +83,8 @@ export default function Home() {
           Machine Learning
         </h3>
       </div>
-      <SaludPosts />
-      <hr />
+      <MachineLearningPosts />
+
 
       {/* [Corpus; Technology] */}
       <div className="container-fluid mt-5 w-75">
@@ -93,8 +93,8 @@ export default function Home() {
           Computer Vision
         </h3>
       </div>
-      <TecnologiaPosts />
-      <hr />
+      <ComputerVisionPosts />
+
     </main>
   )
 }

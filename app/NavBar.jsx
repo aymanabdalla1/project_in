@@ -67,19 +67,19 @@ export const NavBar = () => {
                                     </a>
                                     <div className="dropdown-menu">
                                         <Link className="dropdown-item" href="/categorias/ciencias" onClick={handleLinkClick}>
-                                            Science
+                                            Front End
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/entretenimiento" onClick={handleLinkClick}>
-                                            Entertainment
+                                            Back End
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/finanzas" onClick={handleLinkClick}>
-                                            Finance
+                                            Full Stack
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/salud" onClick={handleLinkClick}>
-                                            Health
+                                            Machine Learning
                                         </Link>
                                         <Link className="dropdown-item" href="/categorias/tecnologia" onClick={handleLinkClick}>
-                                            Technology
+                                            Computer Vision
                                         </Link>
                                     </div>
                                 </li>

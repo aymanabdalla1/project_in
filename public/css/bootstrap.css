@@ -4274,6 +4274,7 @@ fieldset:disabled .btn {
 .navbar-brand:hover,
 .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
+  transform: rotateY(180deg);
 }
 
 .navbar-nav {
