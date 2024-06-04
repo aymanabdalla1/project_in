@@ -42,7 +42,7 @@ export default function PreviousPosts() {
                         <h5 className="card-title">{json1.title}</h5>
                         <p className="card-text">{json1.introduction}</p>
                         <div className="d-flex justify-content-end">
-                            <Link href={'/categorias/entretenimiento/' + json1.routeTitle}><button className="btn btn-primary">HEHE</button></Link>
+                            <Link href={'/categories/backend/' + json1.routeTitle}><button className="btn btn-primary">HEHE</button></Link>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function PreviousPosts() {
                         <h5 className="card-title">{json2.title}</h5>
                         <p className="card-text">{json2.introduction}</p>
                         <div className="d-flex justify-content-end">
-                            <Link href={'/categorias/entretenimiento/' + json2.routeTitle}><button className="btn btn-primary">Leer artículo</button></Link>
+                            <Link href={'/categories/backend/' + json2.routeTitle}><button className="btn btn-primary">Leer artículo</button></Link>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function PreviousPosts() {
                         <h5 className="card-title">{json3.title}</h5>
                         <p className="card-text">{json3.introduction}</p>
                         <div className="d-flex justify-content-end">
-                            <Link href={'/categorias/entretenimiento/' + json3.routeTitle}><button className="btn btn-primary">Leer artículo</button></Link>
+                            <Link href={'/categories/backend/' + json3.routeTitle}><button className="btn btn-primary">Leer artículo</button></Link>
                         </div>
                     </div>
                 </div>

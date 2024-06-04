@@ -19,7 +19,7 @@ export const NavBar = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        const searchUrl = `https://www.google.com/search?q=${searchQuery}+site:lahoralibre.com`;
+        const searchUrl = `https://www.google.com/search?q=${searchQuery}`;
         window.open(searchUrl, '_blank');
     };
 
@@ -66,19 +66,19 @@ export const NavBar = () => {
                                         Categories
                                     </a>
                                     <div className="dropdown-menu">
-                                        <Link className="dropdown-item" href="/categorias/ciencias" onClick={handleLinkClick}>
+                                        <Link className="dropdown-item" href="/categories/frontend" onClick={handleLinkClick}>
                                             Front End
                                         </Link>
-                                        <Link className="dropdown-item" href="/categorias/entretenimiento" onClick={handleLinkClick}>
+                                        <Link className="dropdown-item" href="/categories/backend" onClick={handleLinkClick}>
                                             Back End
                                         </Link>
-                                        <Link className="dropdown-item" href="/categorias/finanzas" onClick={handleLinkClick}>
+                                        <Link className="dropdown-item" href="/categories/fullstack" onClick={handleLinkClick}>
                                             Full Stack
                                         </Link>
-                                        <Link className="dropdown-item" href="/categorias/salud" onClick={handleLinkClick}>
+                                        <Link className="dropdown-item" href="/categories/machinelearning" onClick={handleLinkClick}>
                                             Machine Learning
                                         </Link>
-                                        <Link className="dropdown-item" href="/categorias/tecnologia" onClick={handleLinkClick}>
+                                        <Link className="dropdown-item" href="/categories/computervision" onClick={handleLinkClick}>
                                             Computer Vision
                                         </Link>
                                     </div>

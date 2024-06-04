@@ -23,7 +23,7 @@ class CSettings:
                 json_data = json.load(file)
             image_file = os.path.join(ruta, carpeta, archivos[1])
             #image_link = '.' + image_file
-            image_link = image_file.replace('./categorias/ciencias', '')
+            image_link = image_file.replace('./categories/frontend', '')
             resultado[f'elem{i+1}'] = {'jsonLink': json_data, 'imageLink': image_link}
         
         return resultado

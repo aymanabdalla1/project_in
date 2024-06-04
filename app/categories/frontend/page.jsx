@@ -3,11 +3,11 @@ import Head from 'next/head';
 import { Section } from "./Section";
 
 export const metadata = {
-    title: 'Ciencias | La Hora Libre',
+    title: 'frontend | La Hora Libre',
     description: 'Artículos interesantes relacionados al ámbito de la ciencia',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre ciencia', 'la hora libre ciencias'],
-    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categorias/ciencias' }],
-    creator: 'lahoralibre.com/categorias/ciencias',
+    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre ciencia', 'la hora libre frontend'],
+    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categories/frontend' }],
+    creator: 'lahoralibre.com/categories/frontend',
     publisher: 'Barlow',
     icons: {
         icon: '/LOGO_noBackground.png',

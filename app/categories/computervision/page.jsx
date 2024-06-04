@@ -5,9 +5,9 @@ import { Section } from "./Section";
 export const metadata = {
     title: 'Computer Vision',
     description: 'Artículos interesantes relacionados al ámbito de la tecnología',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre tecnologia', 'la hora libre categoria tecnologia'],
-    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categorias/tecnologia' }],
-    creator: 'lahoralibre.com/categorias/tecnologia',
+    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre computervision', 'la hora libre categoria computervision'],
+    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categories/computervision' }],
+    creator: 'lahoralibre.com/categories/computervision',
     publisher: 'Barlow',
     icons: {
         icon: '/LOGO_noBackground.png',
@@ -20,7 +20,7 @@ export default function page() {
             <Head>
                 <title>{metadata.title}</title>
                 <meta name="description" content={metadata.description} />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, tecnologia, la hora libre tecnologia, la hora libre categoria tecnologia" />
+                <meta name="keywords" content="lahoralibre, lahoralibre.com, computervision, la hora libre computervision, la hora libre categoria computervision" />
                 <meta name="author" content={metadata.creator} />
                 <link rel="canonical" href="https://lahoralibre.com/" />
             </Head>

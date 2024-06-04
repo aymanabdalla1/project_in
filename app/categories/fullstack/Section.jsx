@@ -10,11 +10,11 @@ import PreviousPosts from "./PreviousPosts";
 
 
 export const metadata = {
-    title: 'Finanzas | La Hora Libre',
+    title: 'fullstack | La Hora Libre',
     description: 'Artículos interesantes relacionados al ámbito financiero',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre finanzas', 'la hora libre economia'],
-    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categorias/finanzas' }],
-    creator: 'lahoralibre.com/categorias/finanzas',
+    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre fullstack', 'la hora libre economia'],
+    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categories/fullstack' }],
+    creator: 'lahoralibre.com/categories/fullstack',
     publisher: 'Barlow',
     icons: {
         icon: '/LOGO_noBackground.png',
@@ -29,7 +29,7 @@ export function Section() {
             <Head>
                 <title>{metadata.title}</title>
                 <meta name="description" content={metadata.description} />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, finanzas, la hora libre finanzas" />
+                <meta name="keywords" content="lahoralibre, lahoralibre.com, fullstack, la hora libre fullstack" />
                 <meta name="author" content={metadata.creator} />
                 <link rel="canonical" href="https://lahoralibre.com/" />
             </Head>
@@ -40,7 +40,7 @@ export function Section() {
                 <div>
                     <h2 className="text-center">Artículos financieros</h2>
                     <p className="text-center">
-                        Tu recurso web confiable y completo en todo lo relacionado con las finanzas. Aquí encontrarás una amplia variedad de información y recursos relacionados con el mundo financiero, diseñados para ayudarte a tomar decisiones informadas y maximizar tu bienestar financiero.
+                        Tu recurso web confiable y completo en todo lo relacionado con las fullstack. Aquí encontrarás una amplia variedad de información y recursos relacionados con el mundo financiero, diseñados para ayudarte a tomar decisiones informadas y maximizar tu bienestar financiero.
                     </p>
                 </div>
 
@@ -51,7 +51,7 @@ export function Section() {
                     <div className='col-md-6 mt-4'>
                         <h3>¿A qué se refiere?</h3>
                         <p>
-                            A que encontrarás una gran variedad de artículos que cubren diversos aspectos de las finanzas, como presupuesto personal, inversión, ahorro, planificación para la jubilación, impuestos, gestión empresarial y mucho más. Estos recursos te proporcionarán consejos prácticos para que puedas tomar decisiones financieras inteligentes y alcanzar tus metas económicas. Potenciado por la inteligencia artificial.
+                            A que encontrarás una gran variedad de artículos que cubren diversos aspectos de las fullstack, como presupuesto personal, inversión, ahorro, planificación para la jubilación, impuestos, gestión empresarial y mucho más. Estos recursos te proporcionarán consejos prácticos para que puedas tomar decisiones financieras inteligentes y alcanzar tus metas económicas. Potenciado por la inteligencia artificial.
                         </p>
                     </div>
                 </div>

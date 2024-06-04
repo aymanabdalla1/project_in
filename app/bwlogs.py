@@ -4,11 +4,11 @@ import random
 
 #os.system('clear')
 directorios = [
-    './categorias/ciencias',
-    './categorias/entretenimiento',
-    './categorias/finanzas',
-    './categorias/salud',
-    './categorias/tecnologia'
+    './categories/frontend',
+    './categories/backend',
+    './categories/fullstack',
+    './categories/machinelearning',
+    './categories/computervision'
 ]
 
 def obtener_carpetas(directorio):
@@ -28,6 +28,6 @@ for i, directorio in enumerate(directorios, start=1):
     diccionario_carpetas[clave] = carpetas_aleatorias
 
 
-with open('./categorias/logs.json', 'w', encoding='utf-8') as archivo:
+with open('./categories/logs.json', 'w', encoding='utf-8') as archivo:
     json.dump(diccionario_carpetas, archivo, ensure_ascii=False)
 print("[Barlow; Fichero 'logs.json' creado correctamente].")

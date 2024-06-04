@@ -10,11 +10,11 @@ import PreviousPosts from "./PreviousPosts";
 
 
 export const metadata = {
-    title: 'Ciencias | La Hora Libre',
+    title: 'frontend | La Hora Libre',
     description: 'Artículos interesantes relacionados al ámbito de la ciencia',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre ciencia', 'la hora libre ciencias'],
-    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categorias/ciencias' }],
-    creator: 'lahoralibre.com/categorias/ciencias',
+    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre ciencia', 'la hora libre frontend'],
+    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categories/frontend' }],
+    creator: 'lahoralibre.com/categories/frontend',
     publisher: 'Barlow',
     icons: {
         icon: '/LOGO_noBackground.png',
@@ -29,7 +29,7 @@ export function Section() {
             <Head>
                 <title>{metadata.title}</title>
                 <meta name="description" content={metadata.description} />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, ciencias, la hora libre ciencia" />
+                <meta name="keywords" content="lahoralibre, lahoralibre.com, frontend, la hora libre ciencia" />
                 <meta name="author" content={metadata.creator} />
                 <link rel="canonical" href="https://lahoralibre.com/" />
             </Head>

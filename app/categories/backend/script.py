@@ -23,7 +23,7 @@ class ESettings:
                 json_data = json.load(file)
             image_file = os.path.join(ruta, carpeta, archivos[1])
             #image_link = '.' + image_file
-            image_link = image_file.replace('./categorias/entretenimiento', '')
+            image_link = image_file.replace('./categories/backend', '')
             resultado[f'elem{i+1}'] = {'jsonLink': json_data, 'imageLink': image_link}
         
         return resultado
