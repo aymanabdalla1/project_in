@@ -10,14 +10,14 @@ import PreviousPosts from "./PreviousPosts";
 
 
 export const metadata = {
-    title: 'frontend | La Hora Libre',
-    description: 'Artículos interesantes relacionados al ámbito de la ciencia',
-    keywords: ['lahoralibre.com', 'lahoralibre', 'la hora libre ciencia', 'la hora libre frontend'],
-    authors: [{ name: 'Barlow' }, { name: 'Barlow', url: 'https://lahoralibre.com/categories/frontend' }],
-    creator: 'lahoralibre.com/categories/frontend',
-    publisher: 'Barlow',
+    title: 'Frontend | Project In',
+    description: 'Frontend Software Project Ideas',
+    keywords: ['project', 'software', 'software project ideas', 'frontend'],
+    authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
+    creator: 'aymanabdalla.me',
+    publisher: 'aymanabdalla.me',
     icons: {
-        icon: '/LOGO_noBackground.png',
+      icon: '/small_logo.png',
     },
 };
 export function Section() {
@@ -28,19 +28,19 @@ export function Section() {
             {/* [Corpus; HEADER] */}
             <Head>
                 <title>{metadata.title}</title>
-                <meta name="description" content={metadata.description} />
-                <meta name="keywords" content="lahoralibre, lahoralibre.com, frontend, la hora libre ciencia" />
-                <meta name="author" content={metadata.creator} />
-                <link rel="canonical" href="https://lahoralibre.com/" />
+                <meta name="description" content="ProjectIn: the central hub for sharing software project ideas. From apps to algorithms, ProjectIn fosters collaboration and sparks inspiration. Pitch your ideas, receive feedback, and connect with like-minded tech enthusiasts. Turn your imagination into reality with ProjectIn ." />
+                <meta name="keywords" content="projectin, software projects, swe projects, project ideas, software ideas, software engineering, swe, swe ideas" />
+                <meta name="author" content="projectin" />
+                <link rel="canonical" href="https://projectin.com/" />
             </Head>
 
 
             {/* [Corpus; Section 1] */}
             <div className='container mt-5 w-75'>
                 <div>
-                    <h2 className="text-center">Artículos cientificos</h2>
+                    <h2 className="text-center">Frontend Project Ideas</h2>
                     <p className="text-center">
-                        Un destino digital dedicado a compartir artículos sobre conocimientos, descubrimientos y avances en el emocionante mundo de la ciencia, aquí encontrarás una amplia variedad de contenidos cuidadosamente seleccionados para satisfacer tu curiosidad y mantenerte actualizado sobre los desarrollos más recientes de la ciencia.
+                    Welcome to our Frontend Development Project Ideas page! Here, you'll find a curated collection of innovative and exciting project ideas to help you enhance your frontend development skills. Whether you're a beginner looking for simple projects or an experienced developer seeking advanced challenges, our diverse range of ideas will inspire you to create dynamic and engaging user interfaces. Dive in and start building today
                     </p>
                 </div>
 
