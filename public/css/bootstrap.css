@@ -209,6 +209,7 @@ address {
 
 ol,
 ul {
+  font-size: 1.3rem;
   padding-left: 2rem;
 }
 
@@ -12620,3 +12621,4 @@ th {
 .Btn:active {
   transform: translate(2px ,2px);
 }
+
