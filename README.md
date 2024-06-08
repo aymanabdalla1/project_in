@@ -17,9 +17,9 @@ Consider the user experience (UX) and user interface (UI) design to ensure your 
 ### 2. Choose the Right Technology Stack
 
 Select appropriate technologies for:
-- Front-end development (HTML/CSS/JavaScript frameworks like React or Angular)
-- Back-end development (Node.js, Django, Flask, etc.)
-- Database (MySQL, PostgreSQL, MongoDB, etc.)
+- Front-end development -> Next.js 
+- Back-end development (Node.js, Django, Flask, etc.) -> still deciding
+- Database (MySQL, PostgreSQL, MongoDB, etc.) -> still deciding, probably MongoDB, maybe AWS Ec2 instance?
 
 Utilize libraries or frameworks that support user authentication and authorization (e.g., Passport.js for Node.js).
 
