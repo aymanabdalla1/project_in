@@ -9,7 +9,7 @@ import Init from "./Home/HomeSection";
 /* [Corpus; SECTIONS] */
 import FrontEndPosts from "./categories/frontend/PreviousPosts";
 import BackendPosts from "./categories/backend/PreviousPosts";
-import FullStackPosts from "./categories/frontend/PreviousPosts";
+import FullStackPosts from "./categories/fullstack/PreviousPosts";
 import MachineLearningPosts from "./categories/machinelearning/PreviousPosts";
 import ComputerVisionPosts from "./categories/computervision/PreviousPosts";
 
