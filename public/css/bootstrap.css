@@ -209,7 +209,7 @@ address {
 
 ol,
 ul {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding-left: 2rem;
 }
 
@@ -2608,7 +2608,6 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
   print-color-adjust: exact;
 }
 
@@ -4119,8 +4118,7 @@ fieldset:disabled .btn {
   }
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover{
   color: yellow;
 }
 
