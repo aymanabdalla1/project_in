@@ -8,57 +8,57 @@ from categories.computervision.script import TSettings
 from categories.machinelearning.script import SSettings
 
 #os.system('clear')
-ruta_base = os.path.dirname(os.path.abspath(__file__))
+base_path = os.path.dirname(os.path.abspath(__file__))
 
-archivos = ['data.json', '000001.jpg']
-rutas = [
-    os.path.join(ruta_base, 'categories', 'frontend'),
-    os.path.join(ruta_base, 'categories', 'backend'),
-    os.path.join(ruta_base, 'categories', 'fullstack'),
-    os.path.join(ruta_base, 'categories', 'computervision'),
-    os.path.join(ruta_base, 'categories', 'machinelearning')
+files = ['data.json', '000001.jpg']
+paths = [
+    os.path.join(base_path, 'categories', 'frontend'),
+    os.path.join(base_path, 'categories', 'backend'),
+    os.path.join(base_path, 'categories', 'fullstack'),
+    os.path.join(base_path, 'categories', 'computervision'),
+    os.path.join(base_path, 'categories', 'machinelearning')
 ]
 
-""" [Loop de categoría; Ciencia] """
-for cate1 in rutas[0:1]:
-    cfg = CSettings.buscar_carpetas(cate1, archivos)
+""" [Category Loop; Frontend] """
+for category1 in paths[0:1]:
+    cfg = CSettings.search_folders(category1, files)
 
-    with open(os.path.join(cate1, 'info.json'), "w", encoding='utf-8') as file:
+    with open(os.path.join(category1, 'info.json'), "w", encoding='utf-8') as file:
         json.dump(cfg, file, ensure_ascii=False)
-    print("[Barlow; Fichero 'info.json' de frontend creado].")
+    print("[Barlow; 'info.json' file for frontend created].")
 
 
-""" [Loop de categoría; backend] """
-for cate2 in rutas[1:2]:
-    cfg = ESettings.buscar_carpetas(cate2, archivos)
+""" [Category Loop; Backend] """
+for category2 in paths[1:2]:
+    cfg = ESettings.search_folders(category2, files)
 
-    with open(os.path.join(cate2, 'info.json'), "w", encoding='utf-8') as file:
+    with open(os.path.join(category2, 'info.json'), "w", encoding='utf-8') as file:
         json.dump(cfg, file, ensure_ascii=False)
-    print("[Barlow; Fichero 'info.json' de backend creado].")
+    print("[Barlow; 'info.json' file for backend created].")
 
 
-""" [Loop de categoría; fullstack] """
-for cate3 in rutas[2:3]:
-    cfg = FSettings.buscar_carpetas(cate3, archivos)
+""" [Category Loop; Fullstack] """
+for category3 in paths[2:3]:
+    cfg = FSettings.search_folders(category3, files)
 
-    with open(os.path.join(cate3, 'info.json'), "w", encoding='utf-8') as file:
+    with open(os.path.join(category3, 'info.json'), "w", encoding='utf-8') as file:
         json.dump(cfg, file, ensure_ascii=False)
-    print("[Barlow; Fichero 'info.json' de fullstack creado].")
+    print("[Barlow; 'info.json' file for fullstack created].")
 
 
-""" [Loop de categoría; Tecnología] """
-for cate4 in rutas[3:4]:
-    cfg = TSettings.buscar_carpetas(cate4, archivos)
+""" [Category Loop; Computer Vision] """
+for category4 in paths[3:4]:
+    cfg = TSettings.search_folders(category4, files)
 
-    with open(os.path.join(cate4, 'info.json'), "w", encoding='utf-8') as file:
+    with open(os.path.join(category4, 'info.json'), "w", encoding='utf-8') as file:
         json.dump(cfg, file, ensure_ascii=False)
-    print("[Barlow; Fichero 'info.json' de Tecnología creado].")
+    print("[Barlow; 'info.json' file for computer vision created].")
 
 
-""" [Loop de categoría; machinelearning] """
-for cate5 in rutas[4:5]:
-    cfg = SSettings.buscar_carpetas(cate5, archivos)
+""" [Category Loop; Machine Learning] """
+for category5 in paths[4:5]:
+    cfg = SSettings.search_folders(category5, files)
 
-    with open(os.path.join(cate5, 'info.json'), "w", encoding='utf-8') as file:
+    with open(os.path.join(category5, 'info.json'), "w", encoding='utf-8') as file:
         json.dump(cfg, file, ensure_ascii=False)
-    print("[Barlow; Fichero 'info.json' de machinelearning creado].")
+    print("[Barlow; 'info.json' file for machine learning created].")
