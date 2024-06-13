@@ -51,7 +51,7 @@ const LoginSection = () => {
                   </a>
                 </div>
               </div>
-              <button class="sign">Sign in</button>
+              <button class="sign2">Sign in</button>
             </form>
             <div class="social-message">
               <div class="line"></div>
@@ -88,9 +88,9 @@ const LoginSection = () => {
               </button>
             </div>
             <p class="signup">
-              Don't have an account?
+              Don't have an account? 
               <a rel="noopener noreferrer" href="#" class="">
-                Sign up
+                 Sign up
               </a>
             </p>
           </div>
