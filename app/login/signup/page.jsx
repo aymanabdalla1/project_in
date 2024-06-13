@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Cookies from "./Section";
+import Signup from "./Section";
 
 export const metadata = {
-    title: 'Cookie Policy',
+    title: 'SignUp Page',
     description: 'Notice about Cookie Policy',
     keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
     authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
@@ -27,7 +27,7 @@ export default function CookiesSection() {
             </Head>
 
             {/* [Content] */}
-            <Cookies />
+            <Signup />
         </React.Fragment>
     )
 }

@@ -89,7 +89,7 @@ const LoginSection = () => {
             </div>
             <p class="signup">
               Don't have an account? 
-              <a rel="noopener noreferrer" href="#" class="">
+              <a rel="noopener noreferrer" href="/login/signup" class="">
                  Sign up
               </a>
             </p>

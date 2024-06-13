@@ -12874,3 +12874,135 @@ th {
   line-height: 1rem;
   color: rgba(156, 163, 175, 1);
 }
+
+
+.form-signup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.title-signup {
+  font-size: 28px;
+  color: royalblue;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title-signup::before,.title-signup::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: royalblue;
+}
+
+.title-signup::before {
+  width: 18px;
+  height: 18px;
+  background-color: royalblue;
+}
+
+.title-signup::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.message-signup, .signin-signup {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+.signin-signup {
+  text-align: center;
+}
+
+.signin-signup a {
+  color: royalblue;
+}
+
+.signin-signup a:hover {
+  text-decoration: underline royalblue;
+}
+
+.flex-signup {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form-signup label {
+  position: relative;
+}
+
+.form-signup label .input-signup {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.form-signup label .input-signup + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form-signup label .input-signup:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form-signup label .input-signup:focus + span,.form-signup label .input-signup:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form-signup label .input-signup:valid + span {
+  color: green;
+}
+
+.submit-signup {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+}
+
+.submit-signup:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
