@@ -12627,15 +12627,15 @@ th {
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 420px;
-  width: 350px;
+  height: 500px;
+  width: 400px;
   min-width: 250px;
   /* top: -16px;
   left: 15px;
   right: 15px; */
   padding: 2rem;
   border-radius: 16px;
-  background: #7368e7;
+  background: rgba(17, 24, 39, 1);
   border-color: white;
   border-style: solid;
   transition: .2s;
@@ -12692,7 +12692,7 @@ th {
 .card2-header p {
   font-size: 14px;
   margin: 0 0 1rem;
-  color: white;
+  color: rgba(167, 139, 250, 1);
 }
 
 .card2-header .title {
