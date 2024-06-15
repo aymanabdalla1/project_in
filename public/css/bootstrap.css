@@ -12881,15 +12881,20 @@ th {
   flex-direction: column;
   gap: 10px;
   max-width: 350px;
-  background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   position: relative;
+
+  border-color: white;
+  border-style: solid;
+  border-radius: 0.75rem;
+  background-color: rgba(17, 24, 39, 1);
+  color: rgba(243, 244, 246, 1);
 }
 
 .title-signup {
   font-size: 28px;
-  color: royalblue;
+  color: rgba(243, 244, 246, 1);
   font-weight: 600;
   letter-spacing: -1px;
   position: relative;
@@ -12921,7 +12926,7 @@ th {
 }
 
 .message-signup, .signin-signup {
-  color: rgba(88, 87, 87, 0.822);
+  color: rgba(243, 244, 246, 1);;
   font-size: 14px;
 }
 
