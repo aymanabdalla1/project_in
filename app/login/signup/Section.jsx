@@ -29,32 +29,32 @@ const CookiesSection = () => {
           <p class="message-signup">Signup now and get full access to our app. </p>
           <div class="flex-signup">
             <label>
+              <label for="firstname">Firstname</label>
               <input required="" placeholder="" type="text" class="input-signup" />
-              <span>Firstname</span>
             </label>
 
             <label>
+              <label for="lastname">Lastname</label>
               <input required="" placeholder="" type="text" class="input-signup" />
-              <span>Lastname</span>
             </label>
           </div>
 
           <label>
+            <label for="email">Email</label>
             <input required="" placeholder="" type="email" class="input-signup" />
-            <span>Email</span>
           </label>
 
           <label>
+            <label for="password">Password</label>
             <input required="" placeholder="" type="password" class="input-signup" />
-            <span>Password</span>
           </label>
           <label>
+          <label for="password">Confirm Password</label>
             <input required="" placeholder="" type="password" class="input-signup" />
-            <span>Confirm password</span>
           </label>
           <button class="submit-signup">Submit</button>
           <p class="signin-signup">
-            Already have an acount ? <a href="#">Signin</a>{" "}
+            Already have an acount ? <a href="/login/logform">Signin</a>{" "}
           </p>
         </form>
         </div>
