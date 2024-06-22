@@ -13,7 +13,7 @@ export const metadata = {
       icon: '/small_logo.png',
     },
 }
-export default function CookiesSection() {
+export default function Profile() {
     return (
         <React.Fragment>
             {/* [Header] */}
