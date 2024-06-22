@@ -4,7 +4,7 @@ import Signup from "./Section";
 
 export const metadata = {
     title: 'SignUp Page',
-    description: 'Notice about Cookie Policy',
+    description: 'SignUp page for Project In',
     keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
     authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
     creator: 'aymanabdalla.me',

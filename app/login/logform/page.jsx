@@ -4,7 +4,7 @@ import Login from "./Section";
 
 export const metadata = {
     title: 'Login Page',
-    description: 'Notice about Cookie Policy',
+    description: 'Login page for Project In',
     keywords: ['software', 'project', 'software project', 'software engineering projects', 'swe'],
     authors: [{ name: 'aymanabdalla' }, { name: 'aymanabdalla', url: 'https://aymanabdalla.me' }],
     creator: 'aymanabdalla.me',
