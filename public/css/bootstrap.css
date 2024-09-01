@@ -12831,6 +12831,10 @@ th {
   font-weight: 600;
 }
 
+.sign2:hover {
+  background-color: #7368e7;
+}
+
 .social-message {
   display: flex;
   align-items: center;
@@ -13002,7 +13006,7 @@ th {
 }
 
 .submit-signup:hover {
-  background-color: rgb(56, 90, 194);
+  background-color: #7368e7;
 }
 
 @keyframes pulse {
