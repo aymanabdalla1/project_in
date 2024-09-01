@@ -191,6 +191,8 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: larger;
 }
 
 abbr[title] {
@@ -12643,7 +12645,7 @@ th {
 }
 
 .card2:hover {
-  transform: translateY(-0.4rem);
+  transform: translateY(-2rem);
 }
 
 .card2-author {

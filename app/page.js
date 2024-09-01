@@ -47,53 +47,6 @@ export default function Home() {
       <br />
 
       {/* [Corpus; Science] */}
-      <div className="container-fluid mt-5 w-75">
-        <hr />
-        <h3 className="text-center">
-          Front-End
-        </h3>
-      </div>
-      <FrontEndPosts />
-
-
-      {/* [Corpus; Entertainment] */}
-      <div className="container-fluid mt-5 w-75">
-        <hr />
-        <h3 className="text-center">
-          Back-End
-        </h3>
-      </div>
-      <BackendPosts />
-
-
-      {/* [Corpus; Finance] */}
-      <div className="container-fluid mt-5 w-75">
-        <hr />
-        <h3 className="text-center">
-          Full-Stack
-        </h3>
-      </div>
-      <FullStackPosts />
-
-
-      {/* [Corpus; Health] */}
-      <div className="container-fluid mt-5 w-75">
-        <hr />
-        <h3 className="text-center">
-          Machine Learning
-        </h3>
-      </div>
-      <MachineLearningPosts />
-
-
-      {/* [Corpus; Technology] */}
-      <div className="container-fluid mt-5 w-75">
-        <hr />
-        <h3 className="text-center">
-          Computer Vision
-        </h3>
-      </div>
-      <ComputerVisionPosts />
 
     </main>
   )
