@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://docs.google.com/forms/d/e/1FAIpQLSd-L9wA0CDC_17SOSXjq7VtrM3DItebqvgkC_A7l8tjWcBa7Q/viewform?usp=sf_link"
-                    className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-10 py-6 text-base font-semibold text-white duration-300 ease-in-out hover:from-pink-500 hover:to-orange-500 hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
                   >
                     Join the waitlist! 🚀
                   </Link>
