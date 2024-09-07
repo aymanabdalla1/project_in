@@ -25,7 +25,7 @@ const SingleBlog = ({ blog }: { blog: Blog}) => {
   const imageSrc = tagImageMap[tags[0]] || defaultImage;
   return (
     <>
-      <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
+      <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-three dark:bg-dark dark:hover:shadow-zinc-700">
         <Link
           href="/blog-details"
           className="relative block aspect-[37/22] w-full"

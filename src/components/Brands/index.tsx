@@ -5,7 +5,7 @@ import brandsData from "./brandsData";
 const Brands = () => {
   return (
     <section className="pt-2 pb-5">
-      <div className="container">
+      <div className="container transform transition duration-300 hover:scale-105 ">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="flex items-center justify-center rounded-sm bg-gray-light px-4 py-4 dark:bg-gray-dark sm:px-5 md:px-[25px] md:py-[20px] xl:p-[25px] 2xl:px-[35px] 2xl:py-[30px]">
