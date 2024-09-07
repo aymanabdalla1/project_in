@@ -3,10 +3,10 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Super Cool Back End Project",
+    title: "Project 1",
     paragraph:
-      "This project is super cool and will help you learn a lot about back end development.",
-    image: "/backend.png",
+      "This project is super cool and will help you learn a lot about front end development.",
+    image: "/fullstack.png",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -17,10 +17,10 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "Awesome Weather App for Front End Developers",
+    title: "Project 2",
     paragraph:
-      "This weather app is awesome and will help you learn a lot about front end development.",
-    image: "/weatherapp.jpg",
+      "This project is super cool and will help you learn a lot about back end development.",
+    image: "/fullstack.png",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -31,10 +31,10 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Full Stack Project for Beginners plus AI!",
+    title: "Project 3",
     paragraph:
-      "Ready to learn full stack development? This project is perfect for beginners and includes AI.",
-    image: "/fullstack.jpg",
+      "This project is super cool and will help you learn a lot about full stack development.",
+    image: "/fullstack.png",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",

@@ -36,12 +36,17 @@ module.exports = {
     extend: {
       animation: {
         'fade-up': 'fadeUp 1s ease-out',
-        'fade-upp': 'fadeUp 2s ease-out'
+        'fade-upp': 'fadeUp 2s ease-out',
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
       keyframes: {
         fadeUp: {
           '0%': { opacity: '0', transform: 'translateY(10px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+          'infinite-scroll': {
+            from: { transform: 'translateX(0)' },
+            to: { transform: 'translateX(-100%)' },
         },
       },
       backgroundImage: {
